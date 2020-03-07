@@ -52,10 +52,10 @@ def tweets(label=None):
         return jsonify(data)
 
     except FileNotFoundError:
-        consumer_key = 'K6D0IcUdlj9tVrMxLNDAV0hbn'
-        consumer_secret = 'wgLc9Z169OHtqcImHhThA26kjN2C5T5tzxXoltcycScnnuY0uq'
-        access_token_key = '2193965911-qwngATgg5nhhlDCSPQeJHc79kuEQsKUkhyAjeyJ'
-        access_token_secret = '19YvZ9ZEk6rQfdduZQoVXSTfYGDdJObFXvxgizFXUEZQn'
+        consumer_key = ''
+        consumer_secret = ''
+        access_token_key = ''
+        access_token_secret = ''
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         api = tweepy.API(auth)
@@ -134,10 +134,10 @@ def users(label=None):
 
     except:
 
-        consumer_key = 'K6D0IcUdlj9tVrMxLNDAV0hbn'
-        consumer_secret = 'wgLc9Z169OHtqcImHhThA26kjN2C5T5tzxXoltcycScnnuY0uq'
-        access_token_key = '2193965911-qwngATgg5nhhlDCSPQeJHc79kuEQsKUkhyAjeyJ'
-        access_token_secret = '19YvZ9ZEk6rQfdduZQoVXSTfYGDdJObFXvxgizFXUEZQn'
+        consumer_key = ''
+        consumer_secret = ''
+        access_token_key = ''
+        access_token_secret = ''
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token_key, access_token_secret)
         api = tweepy.API(auth)
