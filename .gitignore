@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/hack-front/node_modules
+hack-front/.pnp
+hack-front.pnp.js
+
+# testing
+hack-front/coverage
+
+# production
+/hack-front/build
+
+# misc
+hack-front/.DS_Store
+hack-front/.env.local
+hack-front/.env.development.local
+hack-front/.env.test.local
+hack-front/.env.production.local
+
+hack-front/npm-debug.log*
+hack-front/yarn-debug.log*
+hack-front/yarn-error.log*
