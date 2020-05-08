@@ -25,10 +25,10 @@ app = Flask(__name__)
 
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
-consumer_key = 'K6D0IcUdlj9tVrMxLNDAV0hbn'
-consumer_secret = 'wgLc9Z169OHtqcImHhThA26kjN2C5T5tzxXoltcycScnnuY0uq'
-access_token_key = '2193965911-qwngATgg5nhhlDCSPQeJHc79kuEQsKUkhyAjeyJ'
-access_token_secret = '19YvZ9ZEk6rQfdduZQoVXSTfYGDdJObFXvxgizFXUEZQn'
+consumer_key = ''
+consumer_secret = ''
+access_token_key = ''
+access_token_secret = ''
 
 df = pd.read_json('../dataset.json',lines=True)
 for index,row in df.iterrows():
